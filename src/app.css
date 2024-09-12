@@ -1,0 +1,36 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-smooth: always;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    max-height: 700px;
+    object-fit: contain;
+    width: 100%;
+
+    img {
+        height: 500px;
+        object-fit: contain;
+        width: 100%;
+    }
+}
+
+.background {
+	background-image: url('/images/wood_vase_orange.jpg');
+	background-size: contain;;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 700px;
+}
+
+.sacramento-regular {
+	font-family: 'Sacramento', cursive;
+	font-weight: 400;
+	font-style: normal;
+}
