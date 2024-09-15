@@ -16,7 +16,7 @@
 		"test:integration": "playwright test",
 		"test:unit": "vitest"
 	},
-	"homepage": "https://carlos-woodwork.vercel.app",
+	"homepage": "https://thefonzie-codes.github.io/carlos-woodwork/",
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^3.0.0",
