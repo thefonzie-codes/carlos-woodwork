@@ -9,7 +9,7 @@
 <!-- <Header title="El Tallerico del Lillico" /> -->
 <main class="p-20 flex flex-col flex-wrap justify-center align-items-center bg-stone-100 max-w-7xl">
 	<div>
-		<a class="text-5xl font-bold gilda-display-regular" href="/">El Tallerico del Lillico</a>
+		<h1 class="text-5xl font-bold gilda-display-regular">El Tallerico del Lillico</h1>
 	</div>
 	<div class="my-5 flex align-middle h-full">
 		<img
