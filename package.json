@@ -5,6 +5,8 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
 		"preview": "vite preview",
 		"test": "npm run test:integration && npm run test:unit",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -14,6 +16,7 @@
 		"test:integration": "playwright test",
 		"test:unit": "vitest"
 	},
+    "homepage": "https://carlos-woodwork.vercel.app",
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -24,6 +27,7 @@
 		"eslint": "^9.0.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0",
+		"gh-pages": "^6.1.1",
 		"globals": "^15.0.0",
 		"postcss": "^8.4.47",
 		"prettier": "^3.1.1",
