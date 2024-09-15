@@ -9,7 +9,7 @@ export default {
       strict: false // Disable strict mode to ignore dynamic routes
     }),
     paths: {
-      base: process.env.NODE_ENV === 'development' ? '' : '/<repository-name>'
+      base: process.env.NODE_ENV === 'development' ? '/carlos-woodwork' : '',
     }
   }
 };
